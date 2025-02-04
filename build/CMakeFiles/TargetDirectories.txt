@@ -1,0 +1,3 @@
+/home/developer/Documents/practice/build/CMakeFiles/rebuild_cache.dir
+/home/developer/Documents/practice/build/CMakeFiles/edit_cache.dir
+/home/developer/Documents/practice/build/CMakeFiles/imagerot.dir
