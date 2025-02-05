@@ -108,6 +108,7 @@ imagerot: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
 imagerot: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
 imagerot: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
 imagerot: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+imagerot: librotate_lib.a
 imagerot: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
 imagerot: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
 imagerot: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0

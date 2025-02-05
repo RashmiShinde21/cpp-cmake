@@ -1,5 +1,8 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include "./functions/rotate.h"
+
+using namespace std;
 
 int main(int argc, char* argv[]) {
     // Check if the correct number of arguments is provided
@@ -20,7 +23,7 @@ int main(int argc, char* argv[]) {
     }
 
     // Get the image center
-    cv::Point2f center(image.cols / 2.0, image.rows / 2.0);
+    /*cv::Point2f center(image.cols / 2.0, image.rows / 2.0);
 
     // Get the rotation matrix
     cv::Mat rotationMatrix = cv::getRotationMatrix2D(center, angle, 1.0);
@@ -34,6 +37,10 @@ int main(int argc, char* argv[]) {
     cv::imwrite(outputPath, rotatedImage);
 
     std::cout << "Rotated image saved as " << outputPath << std::endl;
+    */
+
+     rotate_img(image,angle);
+
 
     return 0;
 }

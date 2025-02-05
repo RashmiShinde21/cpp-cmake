@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/developer/Documents/practice/funtions -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I/home/developer/Documents/practice/funtions 
 

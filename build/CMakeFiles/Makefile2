@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/developer/Documents/practice/build
 
 # The main recursive "all" target.
 all: CMakeFiles/imagerot.dir/all
+all: CMakeFiles/rotate_lib.dir/all
 
 .PHONY : all
 
@@ -64,6 +65,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/imagerot.dir/clean
+clean: CMakeFiles/rotate_lib.dir/clean
 
 .PHONY : clean
 
@@ -71,7 +73,7 @@ clean: CMakeFiles/imagerot.dir/clean
 # Target rules for target CMakeFiles/imagerot.dir
 
 # All Build rule for target.
-CMakeFiles/imagerot.dir/all:
+CMakeFiles/imagerot.dir/all: CMakeFiles/rotate_lib.dir/all
 	$(MAKE) -f CMakeFiles/imagerot.dir/build.make CMakeFiles/imagerot.dir/depend
 	$(MAKE) -f CMakeFiles/imagerot.dir/build.make CMakeFiles/imagerot.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/developer/Documents/practice/build/CMakeFiles --progress-num=1,2 "Built target imagerot"
@@ -79,7 +81,7 @@ CMakeFiles/imagerot.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/imagerot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/Documents/practice/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/Documents/practice/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/imagerot.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/Documents/practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/imagerot.dir/rule
@@ -93,6 +95,33 @@ imagerot: CMakeFiles/imagerot.dir/rule
 CMakeFiles/imagerot.dir/clean:
 	$(MAKE) -f CMakeFiles/imagerot.dir/build.make CMakeFiles/imagerot.dir/clean
 .PHONY : CMakeFiles/imagerot.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rotate_lib.dir
+
+# All Build rule for target.
+CMakeFiles/rotate_lib.dir/all:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/depend
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/developer/Documents/practice/build/CMakeFiles --progress-num=3,4 "Built target rotate_lib"
+.PHONY : CMakeFiles/rotate_lib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rotate_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/Documents/practice/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rotate_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/developer/Documents/practice/build/CMakeFiles 0
+.PHONY : CMakeFiles/rotate_lib.dir/rule
+
+# Convenience name for target.
+rotate_lib: CMakeFiles/rotate_lib.dir/rule
+
+.PHONY : rotate_lib
+
+# clean rule for target.
+CMakeFiles/rotate_lib.dir/clean:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/clean
+.PHONY : CMakeFiles/rotate_lib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

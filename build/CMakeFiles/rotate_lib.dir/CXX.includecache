@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/developer/Documents/practice/functions/rotate.cpp
+rotate.h
+/home/developer/Documents/practice/functions/rotate.h
+iostream
+-
+opencv2/opencv.hpp
+-
+
+/home/developer/Documents/practice/functions/rotate.h
+opencv2/opencv.hpp
+-
+

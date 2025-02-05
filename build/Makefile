@@ -123,6 +123,46 @@ imagerot/fast:
 	$(MAKE) -f CMakeFiles/imagerot.dir/build.make CMakeFiles/imagerot.dir/build
 .PHONY : imagerot/fast
 
+#=============================================================================
+# Target rules for targets named rotate_lib
+
+# Build rule for target.
+rotate_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotate_lib
+.PHONY : rotate_lib
+
+# fast build rule for target.
+rotate_lib/fast:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/build
+.PHONY : rotate_lib/fast
+
+functions/rotate.o: functions/rotate.cpp.o
+
+.PHONY : functions/rotate.o
+
+# target to build an object file
+functions/rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o
+.PHONY : functions/rotate.cpp.o
+
+functions/rotate.i: functions/rotate.cpp.i
+
+.PHONY : functions/rotate.i
+
+# target to preprocess a source file
+functions/rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/functions/rotate.cpp.i
+.PHONY : functions/rotate.cpp.i
+
+functions/rotate.s: functions/rotate.cpp.s
+
+.PHONY : functions/rotate.s
+
+# target to generate assembly for a file
+functions/rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/functions/rotate.cpp.s
+.PHONY : functions/rotate.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... imagerot"
+	@echo "... rotate_lib"
+	@echo "... functions/rotate.o"
+	@echo "... functions/rotate.i"
+	@echo "... functions/rotate.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
