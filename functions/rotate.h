@@ -1,7 +1,9 @@
 #ifndef ROTATE_H
 #define ROTATE_H
 #include <opencv2/opencv.hpp>
+using namespace std;
+using namespace cv;
 
-void rotate_img(cv::Mat image,double angle);
+Mat rotate_img(Mat image,double angle);
 
 #endif

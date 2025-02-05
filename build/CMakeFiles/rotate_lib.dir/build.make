@@ -70,17 +70,32 @@ CMakeFiles/rotate_lib.dir/functions/rotate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rotate_lib.dir/functions/rotate.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/developer/Documents/practice/functions/rotate.cpp -o CMakeFiles/rotate_lib.dir/functions/rotate.cpp.s
 
+CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o: CMakeFiles/rotate_lib.dir/flags.make
+CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o: ../functions/revert_rotate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/developer/Documents/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o -c /home/developer/Documents/practice/functions/revert_rotate.cpp
+
+CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/developer/Documents/practice/functions/revert_rotate.cpp > CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.i
+
+CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/developer/Documents/practice/functions/revert_rotate.cpp -o CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.s
+
 # Object files for target rotate_lib
 rotate_lib_OBJECTS = \
-"CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o"
+"CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o" \
+"CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o"
 
 # External object files for target rotate_lib
 rotate_lib_EXTERNAL_OBJECTS =
 
 librotate_lib.a: CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o
+librotate_lib.a: CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o
 librotate_lib.a: CMakeFiles/rotate_lib.dir/build.make
 librotate_lib.a: CMakeFiles/rotate_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/developer/Documents/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library librotate_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/developer/Documents/practice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library librotate_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/rotate_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rotate_lib.dir/link.txt --verbose=$(VERBOSE)
 

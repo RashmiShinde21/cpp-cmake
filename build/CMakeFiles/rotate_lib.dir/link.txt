@@ -1,2 +1,2 @@
-/usr/bin/ar qc librotate_lib.a  CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o
+/usr/bin/ar qc librotate_lib.a  CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o
 /usr/bin/ranlib librotate_lib.a

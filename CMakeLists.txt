@@ -5,7 +5,7 @@ project(ImageRotation)
 find_package(OpenCV REQUIRED)
 
 
-add_library(rotate_lib functions/rotate.cpp)
+add_library(rotate_lib functions/rotate.cpp functions/revert_rotate.cpp)
 
 target_include_directories(rotate_lib PUBLIC ${CMAKE_SOURCE_DIR}/funtions)
 

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/developer/Documents/practice/functions/revert_rotate.cpp" "/home/developer/Documents/practice/build/CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o"
   "/home/developer/Documents/practice/functions/rotate.cpp" "/home/developer/Documents/practice/build/CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
