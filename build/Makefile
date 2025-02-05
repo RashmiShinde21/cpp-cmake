@@ -136,6 +136,33 @@ rotate_lib/fast:
 	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/build
 .PHONY : rotate_lib/fast
 
+functions/revert_rotate.o: functions/revert_rotate.cpp.o
+
+.PHONY : functions/revert_rotate.o
+
+# target to build an object file
+functions/revert_rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o
+.PHONY : functions/revert_rotate.cpp.o
+
+functions/revert_rotate.i: functions/revert_rotate.cpp.i
+
+.PHONY : functions/revert_rotate.i
+
+# target to preprocess a source file
+functions/revert_rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.i
+.PHONY : functions/revert_rotate.cpp.i
+
+functions/revert_rotate.s: functions/revert_rotate.cpp.s
+
+.PHONY : functions/revert_rotate.s
+
+# target to generate assembly for a file
+functions/revert_rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/rotate_lib.dir/build.make CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.s
+.PHONY : functions/revert_rotate.cpp.s
+
 functions/rotate.o: functions/rotate.cpp.o
 
 .PHONY : functions/rotate.o
@@ -200,6 +227,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... imagerot"
 	@echo "... rotate_lib"
+	@echo "... functions/revert_rotate.o"
+	@echo "... functions/revert_rotate.i"
+	@echo "... functions/revert_rotate.s"
 	@echo "... functions/rotate.o"
 	@echo "... functions/rotate.i"
 	@echo "... functions/rotate.s"

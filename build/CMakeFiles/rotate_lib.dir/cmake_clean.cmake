@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/rotate_lib.dir/functions/revert_rotate.cpp.o"
   "CMakeFiles/rotate_lib.dir/functions/rotate.cpp.o"
   "librotate_lib.a"
   "librotate_lib.pdb"

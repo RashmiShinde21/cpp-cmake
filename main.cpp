@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include "./functions/rotate.h"
-
+#include "./functions/revert_rotate.h"
 using namespace std;
 
 int main(int argc, char* argv[]) {
@@ -39,8 +39,19 @@ int main(int argc, char* argv[]) {
     std::cout << "Rotated image saved as " << outputPath << std::endl;
     */
 
-     rotate_img(image,angle);
+     Mat rotimg=rotate_img(image,angle);
+    std::string outputPath = "rotated_image.jpg";
+    cv::imwrite(outputPath, rotimg);
 
+
+      std::cout << "Rotated image saved as " << outputPath<< std::endl;
+     Mat rev_rot=revert_rotate(rotimg,-angle);
+     
+
+     outputPath = "rotated_image_reversed.jpg";
+
+     cv::imwrite(outputPath, rev_rot);
+       std::cout << "Reversed  Rotation saved as " << outputPath << std::endl;
 
     return 0;
 }

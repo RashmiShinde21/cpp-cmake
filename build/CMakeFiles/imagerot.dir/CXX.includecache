@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/developer/Documents/practice/functions/revert_rotate.h
+opencv2/opencv.hpp
+-
+
 /home/developer/Documents/practice/functions/rotate.h
 opencv2/opencv.hpp
 -
@@ -17,6 +21,8 @@ iostream
 -
 ./functions/rotate.h
 /home/developer/Documents/practice/functions/rotate.h
+./functions/revert_rotate.h
+/home/developer/Documents/practice/functions/revert_rotate.h
 
 /usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
